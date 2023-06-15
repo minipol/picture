@@ -18,3 +18,4 @@ StonesButton = Button(window, text='камни', command=StonesClick)
 StonesButton.pack()
 
 window.mainloop()
+# тест
