@@ -28,7 +28,7 @@ def nextPhoto():
     global current_name_picture
     current_name_picture = current_name_picture + 1
     if current_name_picture > 3:
-        current_name_picture = current_name_picture - 1
+        current_name_picture = 1
     namePicture = f'D:/nikit_OS/picture/pctr/{current_name_picture}.png'
     photoPicture = ImageTk.PhotoImage(Image.open(namePicture))
     photoLabel.configure(image=photoPicture,width=1000,height=500)
@@ -38,7 +38,7 @@ def backPhoto():
     global current_name_picture
     current_name_picture = current_name_picture - 1
     if current_name_picture < 1:
-        current_name_picture = current_name_picture + 1
+        current_name_picture = 3
     namePicture = f'D:/nikit_OS/picture/pctr/{current_name_picture}.png'
     photoPicture = ImageTk.PhotoImage(Image.open(namePicture))
     photoLabel.configure(image=photoPicture,width=1000,height=500)
