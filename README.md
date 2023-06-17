@@ -1,3 +1,5 @@
+# пример работы программы
+
 ![alt text](https://github.com/minipol/picture/blob/main/intro.png?raw=true)
 
 # зачем эта программа?
